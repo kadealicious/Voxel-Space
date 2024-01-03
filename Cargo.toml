@@ -1,0 +1,13 @@
+[package]
+name = "Voxel-Space"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+env_logger = "0.10.1"
+image = "0.24.7"
+pixels = "0.13.0"
+winit = { version = "0.29.8", features = ["rwh_05"] }
+winit_input_helper = "0.15.1"
